@@ -1,0 +1,57 @@
+body{
+margin:0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh; 
+background: url(/images/pexels-phil-nguyen-1084554.jpg) no-repeat center;
+background-size: cover;
+overflow: hidden;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    color:white;
+    opacity: 1;
+    font-size: 13px;
+}
+
+.clock{
+    display: flex;
+}
+.clock div{
+    margin:5px;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color:white;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+}
+span{
+    font-family: sans-serif;
+}
+.clock .text{
+    height:30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: black;
+    color:white;
+    opacity: 0,8;
+}
+.clock #ampm{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    background: black;
+    color:white;
+} 
